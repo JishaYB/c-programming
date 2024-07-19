@@ -6,7 +6,6 @@ IODIR0 |= (1 << 1);
 IODIR0 |= (1 << 3);
 IODIR0 |= (1 << 4);
   // Set P0.10 as output
-
 while (1){
 	IOCLR0 |= (1 << 1);
 	IOCLR0 |= (1 << 3);
